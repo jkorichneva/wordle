@@ -1,0 +1,7 @@
+.Letter {
+    border: 2px solid var(--color-tone-3);
+    color: var(--color-tone-1);
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
