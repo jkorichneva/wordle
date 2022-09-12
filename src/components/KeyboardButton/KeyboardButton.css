@@ -6,3 +6,15 @@
     text-transform: uppercase;
     padding: 0 10px;
 }
+
+.KeyboardButton_correct {
+    background-color: green;
+}
+
+.KeyboardButton_absent {
+    background-color: black;
+}
+
+.KeyboardButton_wrongPlaced {
+    background-color: orange;
+}

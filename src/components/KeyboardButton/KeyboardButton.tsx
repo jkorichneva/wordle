@@ -10,7 +10,7 @@ interface KeyboardButtonProps {
 
 export default function KeyboardButton(props: KeyboardButtonProps) {
     const { letter, onClick } = props;
-    return <button className={generateKeyboardButtonClassName(props)} onClick={onClick}>{letter}</button>;
+    return <button className={generateKeyboardButtonClassName(props)} onClick={() => onClick(letter)}>{letter}</button>;
 }
 
 function generateKeyboardButtonClassName(params: Pick<KeyboardButtonProps, "correct" | "absent" | "wrongPlaced">) {

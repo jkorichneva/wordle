@@ -4,4 +4,19 @@
     font-size: 2rem;
     line-height: 2rem;
     font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Letter_correct {
+    background-color: green;
+}
+
+.Letter_absent {
+    background-color: black;
+}
+
+.Letter_wrongPlaced {
+    background-color: orange;
 }

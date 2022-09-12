@@ -17,8 +17,6 @@ function App() {
     <div className="App">
       <Table
           words={words}
-          correctLetters={correctLetters}
-          wronglyPlacedLetters={wronglyPlacedLetters}
           absentLetters={absentLetters}
       />
         <Keyboard
